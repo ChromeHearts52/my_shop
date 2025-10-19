@@ -23,3 +23,4 @@ def product_detail(request,id,slug):
     context = {'product' : product,
                'related_products': related_products}
     return render(request, 'main/product/detail.html',context)
+# 
